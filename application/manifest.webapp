@@ -1,0 +1,28 @@
+{
+  "name": "FireZip",
+  "version": "0.1.0",
+  "description": "An zip manager powered by zip.js.",
+  "launch_path": "/index.html",
+  "icons": {
+    "60": "/icons/icon-60.png",
+    "90": "/icons/icon-90.png",
+    "128": "/icons/icon-128.png",
+    "512": "/icons/icon-512.png"
+  },
+  "orientation": ["portrait"],
+  "developer": {
+    "name": "Lincerely",
+    "url": "https://github.com/lincerely"
+  },
+  "default_locale": "en",
+  "activities":{
+    "open":{
+      "filters":{
+        "type":[ "application/zip" ]
+      },
+      "herf": "index.html",
+      "disposition": "window",
+      "returnValue": false
+    }
+  }
+}
